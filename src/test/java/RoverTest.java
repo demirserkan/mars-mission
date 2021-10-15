@@ -21,7 +21,7 @@ class RoverTest {
     }
 
     @Test
-    void should_firstRoverTakePositionAndDirectionInfoSuccessfully_and_setsNewPosition() {
+    void should_firstRoverTakePositionAndDirectionInfoSuccessfully_and_setsItsNewPosition() {
         String[] positionAndDirectionInfo = {"1", "2", "N"};
         String instructions = "LMLMLMLMM";
 
@@ -34,7 +34,7 @@ class RoverTest {
     }
 
     @Test
-    void should_secondRoverTakePositionAndDirectionInfoSuccessfully_and_setsNewPosition() {
+    void should_secondRoverTakePositionAndDirectionInfoSuccessfully_and_setsItsNewPosition() {
         String[] positionAndDirectionInfo = {"3", "3", "E"};
         String instructions = "MMRMMRMRRM";
 
