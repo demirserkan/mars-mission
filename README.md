@@ -32,15 +32,16 @@ Each rover will be finished sequentially, which means that the second rover won'
 move until the first one has finished moving.
 
 ##Output:
+
 The output for each rover should be its final co-ordinates and heading
 
-###Input: <br>
+Input: <br>
 5 5 <br>
 1 2 N <br>
 LMLMLMLMM <br>
 3 3 E <br>
 MMRMMRMRRM <br>
 
-###Expected Output:<br> 
+Expected Output:<br> 
 1 3 N <br>
 5 1 E <br>
